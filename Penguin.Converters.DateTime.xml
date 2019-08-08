@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Penguin.Converters.DateTime</name>
+    </assembly>
+    <members>
+        <member name="T:Penguin.Converters.DateTime.JavascriptConverter">
+            <summary>
+            Utility for convertime DateTime into a format compatible with JS
+            </summary>
+        </member>
+        <member name="M:Penguin.Converters.DateTime.JavascriptConverter.AsLocal(System.DateTime)">
+            <summary>
+            Converts a DateTime to UTC long
+            </summary>
+            <param name="from">The DateTime to convert</param>
+            <returns>The long representation of the UTC</returns>
+        </member>
+        <member name="M:Penguin.Converters.DateTime.JavascriptConverter.Convert(System.DateTime)">
+            <summary>
+            Converts a DateTime into a (JavaScript parsable) Int64.
+            </summary>
+            <param name="from">The DateTime to convert from</param>
+            <returns>An integer value representing the number of milliseconds since 1 January 1970 00:00:00 UTC.</returns>
+        </member>
+        <member name="M:Penguin.Converters.DateTime.JavascriptConverter.Convert(System.Int64)">
+            <summary>
+            Converts a (JavaScript parsable) Int64 into a DateTime.
+            </summary>
+            <param name="from">An integer value representing the number of milliseconds since 1 January 1970 00:00:00 UTC.</param>
+            <returns>The date as a DateTime</returns>
+        </member>
+    </members>
+</doc>
