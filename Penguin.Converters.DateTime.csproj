@@ -4,6 +4,8 @@
     <PackageProjectUrl>https://github.com/penguincms/Penguin.Converters.DateTime</PackageProjectUrl>
     <Version>1.1.7</Version>
     <Description>Datetime conversion library containing only one function at the moment</Description>
+    <AssemblyName>Penguin.Converters.DateTime</AssemblyName>
+    <RootNamespace>Penguin.Converters.DateTime</RootNamespace>
   </PropertyGroup>
   <Import Project="Penguin.Projects.Shared\Penguin.Projects.Shared.csproj" />
 </Project>
