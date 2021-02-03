@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageProjectUrl>https://github.com/penguincms/Penguin.Converters.DateTime</PackageProjectUrl>
-    <Version>5.0.0</Version>
+    <Version>5.0.1</Version>
     <Description>Datetime conversion library containing only one function at the moment</Description>
     <AssemblyName>Penguin.Converters.DateTime</AssemblyName>
     <RootNamespace>Penguin.Converters.DateTime</RootNamespace>
