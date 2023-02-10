@@ -28,21 +28,27 @@ namespace Penguin.Converters.DateTime
         /// </summary>
         /// <param name="from">The DateTime to convert from</param>
         /// <returns>An integer value representing the number of milliseconds since 1 January 1970 00:00:00 UTC.</returns>
-        public static long Convert(System.DateTime from) => System.Convert.ToInt64((from - _jan1st1970).TotalMilliseconds);
+        public static long Convert(System.DateTime from)
+        {
+            return System.Convert.ToInt64((from - _jan1st1970).TotalMilliseconds);
+        }
 
         /// <summary>
         /// Converts a (JavaScript parsable) Int64 into a DateTime.
         /// </summary>
         /// <param name="from">An integer value representing the number of milliseconds since 1 January 1970 00:00:00 UTC.</param>
         /// <returns>The date as a DateTime</returns>
-        public static System.DateTime Convert(long from) => _jan1st1970.AddMilliseconds(from);
+        public static System.DateTime Convert(long from)
+        {
+            return _jan1st1970.AddMilliseconds(from);
+        }
 
         #endregion Methods
 
         #region Fields
 
         //
-        private static System.DateTime _jan1st1970 = new System.DateTime(1970, 1, 1);
+        private static readonly System.DateTime _jan1st1970 = new(1970, 1, 1);
 
         #endregion Fields
     }
