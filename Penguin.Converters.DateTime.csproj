@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>netstandard2.1;net7.0</TargetFrameworks>
-    <PackageProjectUrl>https://github.com/PenguinCms/Penguin.Converters.DateTime</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/PenguinCMS/Penguin.Converters.DateTime</PackageProjectUrl>
     <Version>5.0.5</Version>
     <Description>Datetime conversion library containing only one function at the moment</Description>
     <AssemblyName>Penguin.Converters.DateTime</AssemblyName>
